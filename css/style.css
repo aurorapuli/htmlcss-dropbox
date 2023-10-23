@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* stili header */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height: 80px;
+}
+
+.container-header div{
+    display: flex;
+    align-items: center;
+}
+
+
+#info-header ul, #accedi-header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.link-nav{
+    padding: 0 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    color: white;
+    background-color: #0061ff;
+    padding: 7px;
+    text-decoration: none;
+}
