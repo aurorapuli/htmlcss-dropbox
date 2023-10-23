@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&family=Fredoka:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&family=Fredoka:wght@700&family=Open+Sans:ital,wght@0,800;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -46,7 +46,7 @@
                     <p>Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &egrave; più di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p>
                     <a class="button" href="#">Inizia la tua prova gratuita</a>
                     <div>Annulla in qualsiasi momento</div>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-arrow-down" id="fa-arrow-down"></i>
                  </div>
                  <div id="business-feature-coordinate">
                     <img src="img/business-feature-coordinate-it.png" alt="">
@@ -56,30 +56,115 @@
     </section>
 
 
-    <!-- seconda sezione -->
+    <!-- seconda piano business -->
       <section class="piano-business">
         <div class="container-piano-business">
            <h2>Trova il piano business che fa per te</h2>
            <input type="radio" checked="checked" value="male" name="gender"> Fatturazione mensile
-           <input type="radio" checked="checked" value="male" name="gender"> Fatturazione annuale
+           <input id="fatturazioni" type="radio" checked="checked" value="male" name="gender"> Fatturazione annuale
            <div class="piani-business">
-            <div class="piano-singolo">
-
+            <div class=" piano">
+                    <div id="piano-singolo"><i class="fa-solid fa-user"></i>Singolo</div>
+                    <div class="text-piano">
+                        <h4>Professional</h4>
+                        <div><strong>€ 12.00</strong></div>
+                        <div>/mese</div>
+                        <ul>
+                           <li class="list-piani"><i class="fa-solid fa-user"></i>1 utente</li>
+                           <li class="list-piani"><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione</li>
+                           <li class="list-piani"><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <a class="button" href="#">Prova gratis per 30 giorni</a>
+                        <div class="acquista">oppure <a href="#">acquista ora</a></div>
+                        <div class="line"></div>
+                         <ul>
+                            <strong>Punti salienti del piano</strong>
+                           <li class="list-piani"><i class="fa-solid fa-check"></i>Ivia file fino a 100 GB con Dropbox Tranfert</li>
+                           <li class="list-piani"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
             </div>
-
-
-
-           </div>
-
-
+            <div class=" piano">
+                <div id="piano-singolo"><i class="fa-solid fa-users"></i>Team</div>
+                <div class="text-piano">
+                    <h4>Advanced</h4>
+                    <div><strong>€ 18.00</strong></div>
+                    <div>/utente/mese</div>
+                    <ul>
+                       <li class="list-piani"><i class="fa-solid fa-users"></i>3 o più utenti</li>
+                       <li class="list-piani"><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui hai bisogno</li>
+                       <li class="list-piani"><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                    </ul>
+                    <a class="button" href="#">Prova gratis per 30 giorni</a>
+                    <div class="acquista">oppure <a href="#">acquista ora</a></div>
+                    <div class="line"></div>
+                     <ul>
+                        <strong>Punti salienti del piano</strong>
+                       <li class="list-piani"><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                       <li class="list-piani"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                       <li class="list-piani"><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                       <li class="list-piani"><i class="fa-solid fa-check"></i>Possibilità di inserie nuovi membri del team</li>
+                       <li class="list-piani"><i class="fa-solid fa-check"></i>Gestione dei permessi base ai ruoli</li>
+                    </ul>
+                </div>
+        </div>
+        <div class=" piano">
+            <div id="piano-singolo"><i class="fa-solid fa-user"></i>Azienda</div>
+            <div class="text-piano">
+                <h4>Enterprise</h4>
+                <div>contattaci</div>
+                <ul>
+                   <li class="list-piani"><i class="fa-solid fa-user"></i>10 o più utenti</li>
+                   <li class="list-piani"><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda</li>
+                   <li class="list-piani"><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                </ul>
+                <a class="button" href="#">Contattaci</a>
+                <div class="acquista">oppure <a href="#">acquista ora</a></div>
+                <div class="line"></div>
+                 <ul>
+                    <strong>Punti salienti del piano</strong>
+                   <li class="list-piani"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                   <li class="list-piani"><i class="fa-solid fa-check"></i>Servizio assistenza h24</li>
+                   <li class="list-piani"><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                </ul>
+            </div>
         </div>
 
 
       </section>
 
-    <!-- terza sezione -->
+    <!-- terza team-->
 
-    <!-- quarta sezione -->
+    <section>
+        <div class="container-team">
+            <div id="piano-singolo"><i class="fa-solid fa-users"></i>Team</div>
+            <div class="text-team">
+                <div>
+                    <h4>Enterprise</h4>
+                   <div><strong>Contatta l'ufficio vendita per i prezzi</strong></div>
+                   <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                </div>
+                 <a class="button" href="#">Contatta l'ufficio vendite</a>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- sezione partner -->
+    <section>
+         <div class="container-partner">
+            <div id="partner-img"> <img src="img/partner.png" alt="partner"></div>
+            <div id="text-partner">
+                <h2>Entra in contatto con un partner Dropbox</h2>
+                <p>Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione,integrazione,gestione e supporto continui</p>
+                <a class="button button-partner" href="#">Trova un partner</a>
+
+            </div>
+
+         </div>
+    </section>
 
     <!-- quinta sezione -->
 
