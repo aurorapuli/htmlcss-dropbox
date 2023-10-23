@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 14px;
+    font-family: 'AR One Sans', sans-serif;
+}
+
 /* stili header */
 header{
     position: fixed;
@@ -41,4 +46,51 @@ header{
     background-color: #0061ff;
     padding: 7px;
     text-decoration: none;
+}
+
+/* stili sezone introduzione*/
+
+#sezione-introduzione{
+    padding-top: 80px;
+    background-color: #b4d0e7;
+}
+
+.container-introduzione{
+    width: 70%;
+    margin: 0 auto;
+}
+.container-introduzione h1{
+    font-size: 65px;
+    margin-top: 40px;
+}
+
+
+#text-container-introduzione{
+    display: flex;
+}
+
+.prova-gratuita{
+    width: 30%;
+    padding-top: 80px;
+    margin-right: 40px;
+}
+
+.prova-gratuita *{
+    margin-bottom: 40px;
+}
+
+.prova-gratuita div{
+    margin-top: 40px;
+}
+
+.fa-solid{
+    font-size: 45px;
+}
+
+#business-feature-coordinate{
+    width: 50%;
+}
+
+#business-feature-coordinate img{
+    width: 100%;
 }
