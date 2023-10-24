@@ -365,3 +365,25 @@ li{
     color: black;
     padding: 10px 30px;
 }
+
+
+/* stili domande */
+
+.container-domande{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.container-domande h2{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+#lista-domande li{
+padding: 20px 0;
+border-top: 1px solid gray;
+border-bottom: 1px solid grey;
+display: flex;
+justify-content: space-between;
+}
