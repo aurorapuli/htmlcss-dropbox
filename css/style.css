@@ -66,11 +66,11 @@ header{
 
 #text-container-introduzione{
     display: flex;
+    padding-top: 80px;
 }
 
 .prova-gratuita{
     width: 30%;
-    padding-top: 80px;
     margin-right: 40px;
 }
 
@@ -137,6 +137,7 @@ header{
 
 .list-piani{
     margin: 10px 0;
+    display: flex;
 }
 
 .fa-solid {
@@ -224,4 +225,59 @@ li{
     color: grey;
     background-color: white;
     border: 1px solid grey;
+}
+
+
+/* stili operazioni Dropbox */
+.container-operazioni{
+    width: 60%;
+    margin: 100px auto;
+}
+
+.container-operazioni h2{
+    font-size: 34px;
+}
+
+#griglia-operazioni{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colonna-operazione{
+    width: calc((100%/3) - 20px);
+    margin: 40px 10px;
+}
+
+.colonna-operazione img{
+    width: 100%;
+}
+.colonna-operazione h3{
+    font-size: 21px;
+}
+
+/* stili iscritti */
+
+.container-iscritti{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-iscritti h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.container-iscritti a{
+    color: #0061ff;
+}
+
+/* stili loghi */
+
+.loghi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocchi-loghi{
+    width: 30%;
 }
