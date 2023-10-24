@@ -276,8 +276,92 @@ li{
 .loghi{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .blocchi-loghi{
-    width: 30%;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-singolo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designit{
+    background-color: #a2d39b;
+}
+.asu{
+    background-color: rgb(94, 44, 94);
+}
+.florida{
+    background-color: rgb(1, 165, 220);
+}
+.topps{
+    background-color: #d01616;
+}
+.bicycle{
+    background-color: rgb(102, 3, 3);
+}
+.hearst{
+    background-color: #b4d0e7;
+}
+.planet{
+    background-color: blue;
+}
+.channel{
+    background-color: yellow;
+}
+.logo-singolo img{
+    width: 100px;
+    color: white;
+}
+
+#bloccho-logo-centrale{
+   width: calc(100% - 800px);
+   background-color: rgb(218, 216, 216);
+   padding: 0 20px;
+}
+
+#bloccho-logo-centrale img{
+    width: 180px;
+    padding-top: 40px;
+}
+#bloccho-logo-centrale p{
+    margin: 50px 0;
+}
+
+
+
+/* stili prova gratuita */
+#prova-gratuita{
+    background-color: #b4d0e7;
+    margin-bottom: 150px;
+}
+
+.container-prova-gratuita{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.container-prova-gratuita h2{
+    font-size: 38px;
+    color:rgb(102, 3, 3) ;
+}
+
+.button-prova-gratuita{
+    border: none;
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
 }
