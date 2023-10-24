@@ -6,6 +6,8 @@
 
 :root{
     font-size: 14px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif
 }
 
 /* stili header */
@@ -13,6 +15,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 500;
 }
 
 .container-header{
@@ -61,13 +64,12 @@ header{
 .container-introduzione h1{
     font-size: 65px;
     margin-top: 40px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 
 #text-container-introduzione{
     display: flex;
-    padding-top: 80px;
+    transform: translate(10px, 70px);
 }
 
 .prova-gratuita{
@@ -76,7 +78,7 @@ header{
 }
 
 .prova-gratuita *{
-    margin-bottom: 40px;
+    margin-bottom: 22px;
 }
 
 .prova-gratuita div{
@@ -88,7 +90,7 @@ header{
 }
 
 #business-feature-coordinate{
-    width: 50%;
+    width: 60%;
 }
 
 #business-feature-coordinate img{
@@ -101,13 +103,12 @@ header{
 .container-piano-business{
     width: 60%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .container-piano-business h2{
     margin-bottom: 40px;
     font-size: 40px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 #fatturazioni{
@@ -140,10 +141,11 @@ header{
 .list-piani{
     margin: 10px 0;
     display: flex;
+
 }
 
 .fa-solid {
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 3px;
 }
 
@@ -187,7 +189,6 @@ li{
 }
 .text-team h4{
     padding-bottom: 10px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 .text-team p{
@@ -239,7 +240,6 @@ li{
 
 .container-operazioni h2{
     font-size: 34px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 #griglia-operazioni{
@@ -269,7 +269,6 @@ li{
 .container-iscritti h2{
     margin-bottom: 60px;
     font-size: 30px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 .container-iscritti a{
@@ -303,34 +302,34 @@ li{
     background-color: #a2d39b;
 }
 .asu{
-    background-color: rgb(94, 44, 94);
+    background-color: #61082b;
 }
 .florida{
-    background-color: rgb(1, 165, 220);
+    background-color: #0093ce;
 }
 .topps{
-    background-color: #d01616;
+    background-color: #ff1c1c;
 }
 .bicycle{
-    background-color: rgb(102, 3, 3);
+    background-color: #d5001f;
 }
 .hearst{
     background-color: #b4d0e7;
 }
 .planet{
-    background-color: blue;
+    background-color: #0d2481;
 }
 .channel{
-    background-color: yellow;
+    background-color: #ffd830;
 }
 .logo-singolo img{
     width: 100px;
-    color: white;
+    filter: invert(1);
 }
 
 #bloccho-logo-centrale{
    width: calc(100% - 60%);
-   background-color: rgb(218, 216, 216);
+   background-color: #f5f5f5;
    padding: 0 20px;
 }
 
@@ -362,7 +361,6 @@ li{
 .container-prova-gratuita h2{
     font-size: 38px;
     color:rgb(102, 3, 3) ;
-    font-family: 'Fredoka', sans-serif;
 }
 
 .button-prova-gratuita{
@@ -385,7 +383,6 @@ li{
 .container-domande h2{
     font-size: 38px;
     margin-bottom: 40px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 #lista-domande li{
@@ -403,7 +400,7 @@ footer{
 }
 
 .container-footer{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
@@ -414,7 +411,6 @@ footer{
 .lista-footer h4{
     margin-bottom: 20px;
     font-size: 20px;
-    font-family: 'Fredoka', sans-serif;
 }
 
 .lista-footer li{
@@ -428,7 +424,7 @@ footer{
 
 #lingua{
     color: gray;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
