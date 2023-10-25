@@ -169,6 +169,11 @@ header{
 .text-piano{
     padding: 0 15px;
 }
+
+.text-piano h4{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
 .line{
     width: 30px;
     border: 1px solid gray;
