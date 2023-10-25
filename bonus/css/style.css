@@ -83,6 +83,9 @@ header{
 }
 
 
+.button:hover{
+    filter: contrast(0.7);
+}
 
 
 /* stili sezone introduzione*/
@@ -122,6 +125,7 @@ header{
 
  #fa-arrow-down{
     font-size: 45px;
+    color: black;
 }
 
 #business-feature-coordinate{
