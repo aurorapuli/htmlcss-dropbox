@@ -85,6 +85,7 @@ header{
 
 .button:hover{
     filter: contrast(0.7);
+    padding: 10px;
 }
 
 
@@ -428,13 +429,49 @@ li{
     margin-bottom: 40px;
 }
 
-#lista-domande li{
+#lista-domande{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid grey;
+}
+
+ #lista-domande li{
 padding: 20px 0;
-border-top: 1px solid gray;
-border-bottom: 1px solid grey;
 display: flex;
 justify-content: space-between;
+} 
+
+#lista-domande div{
+    color: grey;
+    display: none;
 }
+
+.fa-chevron-up{
+    display: none;
+}
+
+.fa-chevron-down{
+    display: block;
+}
+
+/* stili hover */
+
+#lista-domande:hover div{
+    display: block;
+}
+
+ #lista-domande:hover li .fa-chevron-up{
+    display: block;
+}
+
+#lista-domande:hover  li .fa-chevron-down{
+    display: none;
+}
+
+
+
+
+
+
 
 /* stili footer */
 
@@ -463,6 +500,10 @@ footer{
 .link-footer{
     text-decoration: none;
     color: white;
+}
+
+.link-footer:hover{
+    border-bottom: 1px solid white;
 }
 
 #lingua{
