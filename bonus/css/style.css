@@ -16,6 +16,7 @@ header{
     width: 100%;
     background-color: white;
     z-index: 500;
+    border-bottom: 1px solid gray;
 }
 
 .container-header{
@@ -26,7 +27,7 @@ header{
     height: 80px;
 }
 
-.container-header div{
+#info-header, #accedi-header{
     display: flex;
     align-items: center;
 }
@@ -38,9 +39,13 @@ header{
 }
 
 .link-nav{
-    padding: 0 18px;
+    padding: 28px 18px;
     text-decoration: none;
     color: black;
+}
+
+.link-nav:hover{
+    border-bottom: 3px solid black;
 }
 
 .button{
@@ -49,6 +54,36 @@ header{
     padding: 7px;
     text-decoration: none;
 }
+
+/* sezione hover link */
+
+#supporto{
+    position: relative;
+}
+
+.dropdown-link{
+    display: none;
+    position: absolute;
+    z-index: 40;
+    background-color: #f1f1f1;
+}
+
+.dropdown-link a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#supporto:hover .dropdown-link{
+    display: block;
+}
+.dropdown-link  a:hover{
+    background-color: rgb(205, 196, 196);
+}
+
+
+
 
 /* stili sezone introduzione*/
 
