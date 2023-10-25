@@ -144,6 +144,10 @@ header{
 
 }
 
+.list-piani .fa-solid{
+    padding-top: 4px;
+}
+
 .fa-solid {
     font-size: 12px;
     margin-right: 3px;
