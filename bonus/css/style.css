@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 14px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif
+}
+
+/* stili header */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 500;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height: 80px;
+}
+
+.container-header div{
+    display: flex;
+    align-items: center;
+}
+
+
+#info-header ul, #accedi-header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.link-nav{
+    padding: 0 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    color: white;
+    background-color: #0061ff;
+    padding: 7px;
+    text-decoration: none;
+}
+
+/* stili sezone introduzione*/
+
+#sezione-introduzione{
+    padding-top: 80px;
+    background-color: #b4d0e7;
+}
+
+.container-introduzione{
+    width: 70%;
+    margin: 0 auto;
+}
+.container-introduzione h1{
+    font-size: 65px;
+    margin-top: 40px;
+}
+
+
+#text-container-introduzione{
+    display: flex;
+    transform: translate(10px, 70px);
+}
+
+.prova-gratuita{
+    width: 30%;
+    margin-right: 40px;
+}
+
+.prova-gratuita *{
+    margin-bottom: 22px;
+}
+
+.prova-gratuita div{
+    margin-top: 40px;
+}
+
+ #fa-arrow-down{
+    font-size: 45px;
+}
+
+#business-feature-coordinate{
+    width: 60%;
+}
+
+#business-feature-coordinate img{
+    width: 100%;
+}
+
+
+/* stili piano business */
+
+.container-piano-business{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.container-piano-business h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+#fatturazioni{
+    margin-left: 40px;
+}
+
+.piani-business{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.piano{
+    width: 30%;
+    border: 1px solid grey
+}
+
+.text-piano{
+    padding: 0 15px;
+}
+.line{
+    width: 30px;
+    border: 1px solid gray;
+    margin: 20px 0;
+}
+.piano ul{
+    margin: 50px 0;
+}
+
+.list-piani{
+    margin: 10px 0;
+    display: flex;
+
+}
+
+.list-piani .fa-solid{
+    padding-top: 4px;
+}
+
+.fa-solid {
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+
+#piano-singolo{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 7px 0;
+    margin-bottom: 20px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.acquista{
+    margin-top: 30px;
+}
+
+.acquista a{
+    color: #0061ff;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
+/* stili team */
+.container-team{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+.text-team{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.text-team h4{
+    padding-bottom: 10px;
+}
+
+.text-team p{
+    padding: 30px 0;
+}
+
+.text-team a{
+    align-self: self-start;
+}
+
+
+/* stili partner */
+
+.container-partner{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#partner-img img{
+    width: 100%;
+}
+
+#text-partner{
+    width: 40%;
+    padding: 0 10px;
+}
+
+#text-partner p{
+  padding: 30px 0;
+}
+
+.button-partner{
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+
+/* stili operazioni Dropbox */
+.container-operazioni{
+    width: 60%;
+    margin: 100px auto;
+}
+
+.container-operazioni h2{
+    font-size: 34px;
+}
+
+#griglia-operazioni{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colonna-operazione{
+    width: calc((100%/3) - 20px);
+    margin: 40px 10px;
+}
+
+.colonna-operazione img{
+    width: 100%;
+}
+.colonna-operazione h3{
+    font-size: 21px;
+}
+
+/* stili iscritti */
+
+.container-iscritti{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-iscritti h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.container-iscritti a{
+    color: #0061ff;
+}
+
+/* stili loghi */
+
+.loghi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    min-height: 400px;
+}
+
+.blocchi-loghi{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-singolo{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designit{
+    background-color: #a2d39b;
+}
+.asu{
+    background-color: #61082b;
+}
+.florida{
+    background-color: #0093ce;
+}
+.topps{
+    background-color: #ff1c1c;
+}
+.bicycle{
+    background-color: #d5001f;
+}
+.hearst{
+    background-color: #b4d0e7;
+}
+.planet{
+    background-color: #0d2481;
+}
+.channel{
+    background-color: #ffd830;
+}
+.logo-singolo img{
+    width: 100px;
+    filter: invert(1);
+}
+
+#bloccho-logo-centrale{
+   width: calc(100% - 60%);
+   background-color: #f5f5f5;
+   padding: 0 20px;
+}
+
+#bloccho-logo-centrale img{
+    width: 180px;
+    padding-top: 40px;
+}
+#bloccho-logo-centrale p{
+    margin: 50px 0;
+}
+
+
+
+/* stili prova gratuita */
+#prova-gratuita{
+    background-color: #b4d0e7;
+    margin-bottom: 150px;
+}
+
+.container-prova-gratuita{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.container-prova-gratuita h2{
+    font-size: 38px;
+    color:rgb(102, 3, 3) ;
+}
+
+.button-prova-gratuita{
+    border: none;
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+
+/* stili domande */
+
+.container-domande{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.container-domande h2{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+#lista-domande li{
+padding: 20px 0;
+border-top: 1px solid gray;
+border-bottom: 1px solid grey;
+display: flex;
+justify-content: space-between;
+}
+
+/* stili footer */
+
+footer{
+    background-color: black;
+}
+
+.container-footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.lista-footer h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.lista-footer li{
+    margin: 10px 0;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+}
+
+#lingua{
+    color: gray;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#lingua div{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid white;
+    width: 10%;
+    padding: 30px 0;
+}
+
+
+.fa-globe{
+    padding-right: 7px;
+}
+
+.fa-caret-up{
+    padding-left: 4px;
+    font-size: 15px;
+}
